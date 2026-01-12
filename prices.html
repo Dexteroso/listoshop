@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header_navbar">
+            <div class="header_leftmenu">
+                <div>
+                    <a href="index.html">
+                        <img class="header_logo" src="images/logo_white.png" alt="">
+                    </a>
+                </div>
+                <div class="header_menu">
+                    <button class="hamburger" id="hamburgerBtn">
+                        &#9776;
+                    </button>
+                    <ul class="mobile_menu" id="mobileMenu">
+                        <li class="header_nav">
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li class="header_nav">
+                            <a href="benefits.html">Beneficios</a>
+                        </li>
+                        <li class="header_nav">
+                            <a href="prices.html">Precios</a>
+                        </li>
+                        <li class="header_nav">
+                            <a href="commissions.html">Comisiones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="https://wa.me/5218183622215?text=Hola%20quiero%20informaci%C3%B3n%20para%20empezar%20a%20vender%20con%20ListoShop"
+                target="_blank" rel="noopener" class="button1">
+                <span class="btn-desktop">Quiero mi tienda</span>
+                <span class="btn-mobile">Empezar ahora</span>
+            </a>
+        </nav>
+    </header>
+    PRECIOS
+    <footer>
+        <div class="footer_container">
+            <div class="logo_container">
+                <img src="images/logo_white.png" alt="">
+                <p class="subtitle2">Tu tienda, sin inventarios ni estrés</p>
+            </div>
+            <div class="footer_title_list">
+                <div class="footer_title_list_content">
+                    <p class="footer_title">Acerca de Nosotros</p>
+                    <hr>
+                    <div class="footer_list">
+                        <a href="">Quienes Somos</a>
+                        <!-- <a href="">Hello World</a> -->
+                    </div>
+                </div>
+                <div class="footer_title_list_content">
+                    <p class="footer_title">Legal</p>
+                    <hr>
+                    <div class="footer_list">
+                        <a href="">Política de Privacidad</a>
+                        <a href="">Términos y Condiciones</a>
+                    </div>
+                </div>
+                <div class="footer_title_list_content">
+                    <p class="footer_title">Contacto</p>
+                    <hr>
+                    <div class="footer_list">
+                        <a href="https://wa.me/5218183622215?text=Hola%20quiero%20informaci%C3%B3n%20para%20empezar%20a%20vender%20con%20ListoShop"
+                            target="_blank" rel="noopener">Contacta a un Asesor</a>
+                        <!-- <a href="">Hello World</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Copyright © 2026. ListoShop. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        document.getElementById("hamburgerBtn").addEventListener("click", function () {
+            const menu = document.getElementById("mobileMenu");
+            menu.classList.toggle("open");
+        });
+    </script>
+</body>
+
+</html>
