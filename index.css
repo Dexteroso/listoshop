@@ -4,6 +4,7 @@
     --text_color_2: #FF914D;
     --text_color_3: #6F6F73;
     --text_color_4: #d7d7dd;
+    --text_color_5: #e7ebed;
     --bg_color_1: #F0F3F9;
     --bg_color_2: #f9f2e3;
     --text_gradient: linear-gradient(90deg, #A778C8, #7789C8, #669669);
@@ -93,10 +94,10 @@ header {
 }
 
 .button2 {
-  display: block;
-  width: fit-content;
-  margin: 50px 0;
- align-self: center;
+    display: block;
+    width: fit-content;
+    margin: 50px 0;
+    align-self: center;
 }
 
 /* 
@@ -339,6 +340,12 @@ header {
     font-size: .9rem;
     margin: 0;
     color: var(--text_color_3);
+}
+
+.subtitle2 span {
+    font-size: 0.9rem;
+    margin: 0;
+    color: var(--text_color_2);
 }
 
 .howitworks_container {
@@ -605,4 +612,90 @@ footer p {
     .subtitle1 {
         font-size: 20px;
     }
+}
+
+.divStyle1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.divStyle2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 30px;
+ align-items: center;
+}
+
+.divStyle2 .subtitle2 {
+    margin-top: 20px;
+}
+
+.divStyle3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.content2 {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+
+.content1Style {
+    padding: 25px 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px var(--text_color_4);
+    background-color: var(--main_gray);
+    max-width: 400px;
+}
+
+.content2Style {
+    padding: 25px 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px var(--text_color_4);
+    background-color: var(--text_color_5);
+    text-align: center;
+    max-width: 400px;
+}
+
+.divStyle3 .title2,
+.divStyle4 .title2{
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+}
+
+.divStyle3 .subtitle2,
+.divStyle4 .subtitle2 {
+    text-align: center;
+    margin: 0;
+}
+
+.content1Style .howitworks_subtitle {
+    margin-top: 20px;
+}
+
+.divContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.content1 .button2 {
+    background-color: var(--text_color_1);
+    margin: 30px 0;
+}
+
+.content1 .button2:hover {
+    background-color: var(--text_color_2);
+
 }
